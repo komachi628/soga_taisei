@@ -25,9 +25,15 @@
                 <textarea name="post[body]" placeholder="本文"></textarea>
             </div>
             
-            <div class='form-group'>
-                <label for='image'>画像登録</label>
-                <input type='file' class='form-control-file' name='image' id='image'>
+            
+            <div class="category">
+                <h2>カテゴリ</h2>
+                <textarea name="post[category]" placeholder="カテゴリ"></textarea>
+            </div>
+            
+            <div class="image">
+                <input type="file" name="image">
+            </div>
             </div>
             <input type="submit" class='btn btn-success btn-lg' value="投稿する"/>
         </form>

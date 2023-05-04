@@ -12,7 +12,7 @@
   <div class="col-md-4">
     <div class="card mb-4 shadow-sm">
         <div class="bd-placeholder-img card-img-top">
-          <img class="card-img-top" src="./img/280x150.png" alt="storage/app/public/">
+          <img class="card-img-top" src="{{ $post->image }}" alt="No Image">
         </div>
 
         <div class="card-body">
